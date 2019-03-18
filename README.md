@@ -5,7 +5,7 @@ different methods to impliment nltk tools for NLP
 pip install nltk
 
 # then check if package is installed then open python shell
- import nltk \\
+ import nltk \newline
  nltk.download()
  
  
