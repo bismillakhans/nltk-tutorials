@@ -21,3 +21,15 @@ pip install nltk
   
   3.Referential Ambiquity
   
+  
+  # Problem of text classification of positive and negative Reviews
+
+.. code:: python
+
+  
+    import numpy as np
+    import pandas as pd
+    import os
+    from sklearn.feature_extraction.text import CountVectorizer 
+    print(os.listdir(nltk.data.find('corpora'))) #shows the corpora folder to python files
+ 
